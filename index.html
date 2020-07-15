@@ -3,102 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS File-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="jawa.css">
+    <!--Boostrap JS File-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="jawa.js"></script>
     <title>Jawa Sound Board</title>
 </head>
 <body>
     <h1>Jawa Sound Board</h1>
     <p>For use with SW5e Game!</p>
+
     <hr>
+    
     <h3>Very Long Clips (7 seconds)</h3>
-    <table>
-        <tr>
-            <td><button onclick="playSound(1)">😀</button></td>
-            <td><button onclick="playSound(2)">😀</button></td>
-            <td><button onclick="playSound(3)">😀</button></td>
-            <td><button onclick="playSound(4)">😀</button></td>
-            <td><button onclick="playSound(5)">😀</button></td>
-        </tr>
-    </table>
+
+    <div class="container">
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(1)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(2)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(3)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(4)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(5)">😀</button>
+            </div>
+        </div>
+    </div>
+
     <hr>
+
     <h3>Long Clips (2-3 seconds)</h3>
-    <table>
-        <tr>
-            <td><button onclick="playSound(6)">🤔</button></td>
-            <td><button onclick="playSound(7)">😀</button></td>
-            <td><button onclick="playSound(8)">🥺</button></td>
-            <td><button onclick="playSound(9)">😢</button></td>
-            <td><button onclick="playSound(10)">🥴</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(11)">😢</button></td>
-            <td><button onclick="playSound(12)">😤</button></td>
-            <td><button onclick="playSound(13)">😍</button></td>
-            <td><button onclick="playSound(14)">🤔</button></td>
-            <td><button onclick="playSound(15)">😤</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(16)">😢</button></td>
-            <td><button onclick="playSound(17)">🥳</button></td>
-            <td><button onclick="playSound(18)">🤑</button></td>
-            <td><button onclick="playSound(19)">😁</button></td>
-            <td><button onclick="playSound(20)">😀</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(21)">😤</button></td>
-            <td><button onclick="playSound(22)">🤔</button></td>
-            <td><button onclick="playSound(23)">😤</button></td>
-            <td><button onclick="playSound(24)">🧐</button></td>
-            <td><button onclick="playSound(25)">🤫</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(26)">🤔</button></td>
-            <td><button onclick="playSound(27)">🙂</button></td>
-            <td><button onclick="playSound(28)">👿</button></td>
-            <td><button onclick="playSound(29)">😀</button></td>
-            <td><button onclick="playSound(30)">🥺</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(31)">😀</button></td>
-            <td><button onclick="playSound(32)">😳</button></td>
-            <td><button onclick="playSound(33)">🤬</button></td>
-        </tr>
-    </table>
+
+    <div class="container">
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(6)">🤔</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(14)">🤔</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(22)">🤔</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(26)">🤔</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(8)">🥺</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(7)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(20)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(29)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(31)">😀</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(29)">😀</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(12)">😤</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(15)">😤</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(23)">😤</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(21)">😤</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(33)">🤬</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(9)">😢</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(11)">😢</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(16)">😢</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(30)">🥺</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(32)">😳</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(19)">😁</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(10)">🥴</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(13)">😍</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(17)">🥳</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(24)">🧐</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(18)">🤑</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(27)">🙂</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(25)">🤫</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(28)">👿</button>
+            </div>
+        </div>
+      </div>
+
     <hr>
+
     <h3>Short Clips (1 second)</h3>
-    <table>
-        <tr>
-            <td><button onclick="playSound(34)">😠</button></td>
-            <td><button onclick="playSound(35)">😠</button></td>
-            <td><button onclick="playSound(36)">😠</button></td>
-            <td><button onclick="playSound(37)">😨</button></td>
-            <td><button onclick="playSound(38)">😠</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(39)">🤗</button></td>
-            <td><button onclick="playSound(40)">😳</button></td>
-            <td><button onclick="playSound(41)">🤫</button></td>
-            <td><button onclick="playSound(42)">😃</button></td>
-            <td><button onclick="playSound(43)">🤑</button></td>
-        </tr>
-    </table>
+
+    <div class="container">
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(34)">😠</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(35)">😠</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(36)">😠</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(38)">😠</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(37)">😨</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(39)">🤗</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(42)">😃</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(43)">🤑</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(40)">😳</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(41)">🤫</button>
+            </div>
+        </div>
+      </div>
+
     <hr>
+
     <h3>General Sound Effects</h3>
-    <table>
-        <tr>
-            <td><button onclick="playSound(44)">🤣</button></td>
-            <td><button onclick="playSound(45)">🤣</button></td>
-            <td><button onclick="playSound(46)">🤣</button></td>
-            <td><button onclick="playSound(47)">🤣</button></td>
-            <td><button onclick="playSound(48)">🤯</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="playSound(49)">😖</button></td>
-            <td><button onclick="playSound(50)">😱</button></td>
-        </tr>
-    </table>
+
+    <div class="container">
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(44)">🤣</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(45)">🤣</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(46)">🤣</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(47)">🤣</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(48)">🤯</button>
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="col">
+                <button onclick="playSound(49)">😖</button>
+            </div>
+            <div class="col">
+                <button onclick="playSound(50)">😱</button>
+            </div>
+        </div>
+      </div>
+
     <hr>
-    <footer>Copyright TheCoderHero 2020</footer>
+
+    <div class="alert alert-danger" role="alert">
+        Sound files are © Copywrite protected by EA Games!
+      </div>
+
+    <!--Bootstrap JS Files-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
+
 </html>

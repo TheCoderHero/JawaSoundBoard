@@ -2,7 +2,7 @@ body {
     background-image: linear-gradient(to right, rgb(22, 178, 142), rgb(11, 77, 139));
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     text-shadow: 2px 2px 5px white;
 }
@@ -16,12 +16,17 @@ p {
 button {
     background-color: yellow;
     border: 2px solid black;
+    border-radius: 8px;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  .row {
+      margin: 50px 0px 50px 0px;
   }
